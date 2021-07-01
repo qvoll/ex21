@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
     web:
-        image: ex21_web:1.0
+        image: ex21/web:1.0
         build: ./web
         container_name: 'ex21_web'
         ports: 
